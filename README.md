@@ -1,7 +1,7 @@
 # Aplikacje internetowe 22657 195IC
 
 ### Laboratorium nr. 1 - Blog uruchomiony na PaaS  
-Blog stworzony z pomocą serwisu [pythonanywhere.com](https://www.pythonanywhere.com) oraz poradnika [djangogirls](https://tutorial.djangogirls.org/pl/)
+Blog stworzony z pomocą serwisu [pythonanywhere.com](https://www.pythonanywhere.com) oraz poradnika [djangogirls](https://tutorial.djangogirls.org/pl/)  
 Przejdź do mojego blogu - [tutaj](https://bchanowski.pythonanywhere.com/)  
 Stworzony blog pozwala zwykłemu uzytkownikowi zobaczyć dodane na stronie posty, osoby z funkcją admina mogą poza tym dodawać, edytować oraz usuwać posty  
   
@@ -21,7 +21,7 @@ Po dodaniu się postu od razu zostaniemy przeniesieni do jego detali, tutaj moż
 
 ![Post detail](/assets/post-detail.png "Post detail")
 
-![Lista postów](/assets/post-list.png Lista postów")
+![Lista postów](/assets/post-list.png "Lista postów")
 
 Jak widać nasz post dodał się do naszej listy postów, wróćmy teraz do detali naszego nowego postu i kliknijmy przycisk edycji.
 
