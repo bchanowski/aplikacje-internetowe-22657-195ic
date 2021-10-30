@@ -53,3 +53,18 @@ h1, h2, h3, h4 {
 .post h2 a, .post h1 a:visited {
     color: #000000;
 }
+
+.text-end {
+    font-size: 18px;
+    text-align: right;
+}
+
+.text-start {
+    font-size: 18px;
+    text-align: left;
+}
+
+.komunikat {
+    font-size: 30px;
+    text-align: center;
+}
