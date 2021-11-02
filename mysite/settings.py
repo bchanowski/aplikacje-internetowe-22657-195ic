@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-jrs^t%@845%3t(a3@r51-7hv&xz%t*buju2jrpv-wbek_!d84p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '.herokuapp.com']
 
 
 # Application definition
@@ -136,6 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'bchanowskiTest@gmail.com'
-EMAIL_HOST_PASSWORD = 'testhaslo2'
+EMAIL_HOST_USER = 'revidelol@gmail.com'
+EMAIL_HOST_PASSWORD = 'wxsqcnvmckowjfwx'
 EMAIL_PORT = 576
