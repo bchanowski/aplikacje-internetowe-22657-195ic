@@ -1,7 +1,6 @@
 from django.contrib.auth.forms import PasswordChangeForm, UserCreationForm
 from django.contrib.auth import authenticate, login, update_session_auth_hash
-from django.shortcuts import redirect
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
 from django.http import HttpResponse
 from django.contrib.sites.shortcuts import get_current_site
@@ -80,22 +79,22 @@ def signup(request):
             user.is_active = False
             user.save()
             current_site = get_current_site(request)
-            mail_subject = 'Aktywuj swoję konto na bchanowski.pythonanywhere.com'
-            message = render_to_string('registration/acc_active_email.html', {
+            mail_subject = 'Aktywuj konto na blogu-22657!'
+            message = render_to_string('acc_active_email.html', {
                 'user': user,
                 'domain': current_site.domain,
-                'uid': urlsafe_base64_encode(force_bytes(user.pk)),
-                'token': account_activation_token.make_token(user),
+                'uid':urlsafe_base64_encode(force_bytes(user.pk)),
+                'token':account_activation_token.make_token(user),
             })
             to_email = form.cleaned_data.get('email')
             email = EmailMessage(
                         mail_subject, message, to=[to_email]
             )
             email.send()
-            return render(request, 'registration/signup_succes.html', {'form': form})
+            return HttpResponse('Please confirm your email address to complete the registration')
     else:
         form = SignupForm()
-    return render(request, 'registration/signup.html', {'form': form})
+    return render(request, 'signup.html', {'form': form})
 
 def activate(request, uidb64, token):
     try:
@@ -107,9 +106,9 @@ def activate(request, uidb64, token):
         user.is_active = True
         user.save()
         login(request, user)
-        return HttpResponse('Aktywacja przebiegła pomyślnie')
+        return HttpResponse('Rejestracja powiodła się.')
     else:
-        return HttpResponse('Aktywacja jest błędna!')
+        return HttpResponse('Rejestracja nie powiodła się!')
 
 def base(request):
     return redirect('base')
