@@ -91,7 +91,7 @@ def signup(request):
                         mail_subject, message, to=[to_email]
             )
             email.send()
-            return HttpResponse('registration/signup_succes.html')
+            return render(request, 'registration/signup_succes.html', {'form': form})
     else:
         form = SignupForm()
     return render(request, 'registration/signup.html', {'form': form})
