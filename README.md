@@ -1,8 +1,12 @@
 # Aplikacje internetowe 22657 195IC
 
+<p><a href="#Lab1">Lab 1</a></p>
+<p><a href="#Lab2">Lab 2</a></p>
+
+<a id="Lab1"></a>
 ### Laboratorium nr. 1 - Blog uruchomiony na PaaS  
-Blog stworzony z pomocą serwisu [pythonanywhere.com](https://www.pythonanywhere.com) oraz poradnika [djangogirls](https://tutorial.djangogirls.org/pl/)  
-Przejdź do mojego blogu - [tutaj](https://bchanowski.pythonanywhere.com/)  
+Blog stworzony z pomocą serwisu [heroku.com](https://www.heroku.com) oraz poradnika [djangogirls](https://tutorial.djangogirls.org/pl/)  
+Przejdź do mojego blogu - [tutaj](https://blog-22657.herokuapp.com/)  
 Stworzony blog pozwala zwykłemu uzytkownikowi zobaczyć dodane na stronie posty, osoby z funkcją admina mogą poza tym dodawać, edytować oraz usuwać posty  
   
 #### Layout strony
@@ -40,4 +44,9 @@ Kliknijmy teraz przycisk usuwania, pojwi nam się pusty ekran strony, a po powro
 
 ![Post usunięty](/assets/post-del.png "Post usunięty")
 
-![Layout strony](/assets/layout-strony.png "Layout strony")
+![Layout strony](/assets/layout-strony.png "Layout strony")  
+
+<a id="Lab2"></a>
+### Laboratorium nr. 2 - Rejestracja użytkowników  
+
+
