@@ -49,4 +49,44 @@ Kliknijmy teraz przycisk usuwania, pojwi nam się pusty ekran strony, a po powro
 <a id="Lab2"></a>
 ### Laboratorium nr. 2 - Rejestracja użytkowników  
 
+W lab2 dodałem opcję rejestracji użytkownika, zmiany oraz resetu hasła i logowania.  Zmieniłem również system PaaS na heroku z powodu problemów z pythonanywhere przy próbach wysyłania maili z potwierdzeniem konta/resetem hasła.
+
+![Strona główna](/assets/str-glw-no-user.png "Strona głowna")
+
+Najpierw zatem zarejestrujmy użytkownika. Po rejestracji otrzymamy na maila wiadomość z linkiem do aktywacji konta.
+
+![Rejestracja](/assets/signup.png "Rejestracja")
+
+![Rejestracja](/assets/signup-done.png "Rejestracja")
+
+![Rejestracja](/assets/signup-activate.png "Rejestracja")
+
+![Rejestracja](/assets/signup-activate-done.png "Rejestracja")  
+
+Po aktywacji konta jesteśmy od razu zalogowani, wyloguję się jednak żeby pokazać działanie logowania.
+
+![Logowanie](/assets/login.png "Logowanie")
+
+![Logowanie](/assets/login-done.png "Logowanie")  
+
+Jak widać zniknęły nam opcje rejestracja, login oraz reset hasła, pojawiło się za to opcja zmiany hasła.  
+
+![Zmiana hasła](/assets/chng-pass.png "Zmiana hasła")  
+
+![Zmiana hasła](/assets/chng-pass-done.png "Zmiana hasła")  
+
+Spróbujmy teraz zresetować hasło, znów musimy się wylogować.
+
+![Reset hasła](/assets/reset-pass.png "Reset hasła")
+
+![Reset hasła](/assets/reset-pass-done.png "Reset hasła")  
+
+Po resecie hasła również otrzymamy maila z linkiem do resetu.
+
+![Reset hasła](/assets/reset-pass-mail.png "Reset hasła")
+
+![Reset hasła](/assets/reset-pass-mail-done.png "Reset hasła")  
+
+Nowy użytkownik może tylko wyświetlać posty, nie dodawać czy edytować.
+
 
