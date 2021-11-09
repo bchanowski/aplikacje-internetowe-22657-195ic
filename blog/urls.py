@@ -1,7 +1,8 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
 from django.conf.urls import url
 from django.contrib.auth import views as auth_views
+from django.contrib import admin
 
 urlpatterns = [
     path('', views.post_list, name='post_list'),
