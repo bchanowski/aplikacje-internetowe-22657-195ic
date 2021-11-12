@@ -2,6 +2,7 @@
 
 <p><a href="#Lab1">Lab 1</a></p>
 <p><a href="#Lab2">Lab 2</a></p>
+<p><a href="#Lab3">Lab 3</a></p>
 
 <a id="Lab1"></a>
 ### Laboratorium nr. 1 - Blog uruchomiony na PaaS  
@@ -87,6 +88,25 @@ Po resecie hasła również otrzymamy maila z linkiem do resetu.
 
 ![Reset hasła](/assets/reset-pass-mail-done.png "Reset hasła")  
 
-Nowy użytkownik może tylko wyświetlać posty, nie dodawać czy edytować.
+Nowy użytkownik może tylko wyświetlać posty, nie dodawać czy edytować.  
+
+<a id="Lab3"></a>
+### Laboratorium nr. 3 - Różne sposoby uwierzytelniania  
+
+W lab3 dodałem opcję uwierzytelniania za pomocą gmaila oraz discorda. Zdecydowałem się na tę dwie opcję gdyż gmail jest podstawową formę logowania na prawie każdej stronie, a z discorda korzystam w ramach naszych zajęć.  
+
+![Logowanie](/assets/login-auth.png "Logowanie")  
+
+## Gmail  
+
+![Logowanie gmail](/assets/login-gmail.png "Logowanie gmail")  
+
+![Logowanie gmail](/assets/login-gmail-done.png "Logowanie gmail")  
+
+## Discord  
+
+![Logowanie discord](/assets/login-discord.png "Logowanie discord")  
+
+![Logowanie discord](/assets/login-discord-done.png "Logowanie discord")  
 
 
