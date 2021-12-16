@@ -153,7 +153,7 @@ SITE_ID = 1
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'revidelol@gmail.com'
-
+EMAIL_HOST_PASSWORD = 'wxsqcnvmckowjfwx'
 EMAIL_PORT = 587
 
 django_heroku.settings(locals())
