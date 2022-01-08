@@ -1,5 +1,9 @@
 # Aplikacje internetowe 22657 195IC
 
+<p><a href="#Lab4">Lab 4</a></p>  
+<p><a href="#Lab6">Lab 6</a></p>  
+
+<a id="Lab4"></a>
 ### Laboratorium nr. 4 - REST API z DRF
   
 Post list - niezalogowany  
@@ -38,5 +42,53 @@ Post search
 
 Swagger  
 
-![Swagger ](/lab4/myapi/assets/swagger.png "Swagger ") 
+![Swagger](/lab4/myapi/assets/swagger.png "Swagger") 
+
+<a id="Lab6"></a>  
+
+### Laboratorium nr. 6 - Zezwolenia i uwierzytelnianie w DRF
+
+Login  
+
+![Login](/lab4/myapi/assets/login.png "Login")  
+
+![Logged](/lab4/myapi/assets/logged.png "Logged")  
+
+Logout  
+
+![Logout](/lab4/myapi/assets/logout.png "Logout")  
+
+![Loggedout](/lab4/myapi/assets/loggedout.png "Loggedout")  
+
+Password reset  
+
+![Reset](/lab4/myapi/assets/pass-reset.png "Reset")  
+
+![Reset-conf](/lab4/myapi/assets/pass-reset-conf.png "Reset-conf")  
+
+Autoryzacja tokenem  
+
+![Token](/lab4/myapi/assets/tokenkod.png "Token")
+
+Register  
+
+![Register](/lab4/myapi/assets/register.png "Register")  
+
+![Registered](/lab4/myapi/assets/registered.png "Registered")  
+
+Token dodany w panelu admina  
+
+![Panel](/lab4/myapi/assets/paneladmina.png "Panel")  
+
+UserList  
+
+![Users](/lab4/myapi/assets/users.png "Users")
+
+Viewsets  
+
+![Viewsets](/lab4/myapi/assets/viewsetykod.png "Viewsets")  
+
+Router  
+
+![Router](/lab4/myapi/assets/routerkod.png "Router")  
 

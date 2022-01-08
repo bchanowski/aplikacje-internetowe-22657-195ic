@@ -6,6 +6,10 @@
 
 [Lab4](https://github.com/bchanowski/aplikacje-internetowe-22657-195IC/tree/main/lab4/myapi)  
 
+[Lab5](https://github.com/bchanowski/aplikacje-internetowe-22657-195IC/tree/main/lab5/lab5)  
+
+[Lab6](https://github.com/bchanowski/aplikacje-internetowe-22657-195IC/tree/main/lab4/myapi)  
+
 <a id="Lab1"></a>
 ### Laboratorium nr. 1 - Blog uruchomiony na PaaS  
 Blog stworzony z pomocą serwisu [heroku.com](https://www.heroku.com) oraz poradnika [djangogirls](https://tutorial.djangogirls.org/pl/)  
