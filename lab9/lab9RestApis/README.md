@@ -22,7 +22,7 @@ Edycja
 
 ![update](/lab9/lab9RestApis/assets/updated.png "update")  
 
-![update](/lab9/lab9RestApis/assets/update2.png "update")  
+![update](/lab9/lab9RestApis/assets/updated2.png "update")  
 
 Publish  
 

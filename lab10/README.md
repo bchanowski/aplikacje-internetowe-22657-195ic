@@ -34,7 +34,7 @@ Dodanie
 
 ![Frontend](/lab10/assets/dodane.png "Frontend")  
 
-#### Panel admin  
+#### Panel admina  
 
 ![Admin](/lab10/assets/paneladmina.png "Admin")  
 
